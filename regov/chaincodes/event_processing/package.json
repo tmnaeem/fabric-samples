@@ -1,0 +1,19 @@
+{
+    "name": "simple_chaincode_app",
+    "version": "1.0.0",
+    "main": "addToWallet.js",
+    "scripts": {
+        "start": "fabric-chaincode-node start",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "engines": {
+        "node": ">=12",
+        "npm": ">=5"
+    },
+    "dependencies": {
+        "fabric-contract-api": "^2.0.0",
+        "fabric-shim": "^2.0.0",
+        "fabric-network": "^2.2.4",
+        "fabric-ca-client": "^2.2.4"
+  } 
+}

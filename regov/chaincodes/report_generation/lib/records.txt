@@ -1,0 +1,10 @@
+{
+    id: string;
+    name: string;
+    price: number;
+    date: {
+        day: number;
+        month: number;
+        year: number;
+    }
+}

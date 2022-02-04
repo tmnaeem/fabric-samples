@@ -1,0 +1,10 @@
+{
+    "index": {
+        "fields":[
+            "price"
+        ]
+    },
+    "ddoc": "indexPriceDoc",
+    "name": "indexPrice",
+    "type": "json"
+}

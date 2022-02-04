@@ -1,0 +1,17 @@
+{
+    "name": "balance_transfer",
+    "version": "1.0.0",
+    "main": "index.js",
+    "description": "Balance Transfer contract implemented in Javascript",
+    "scripts": {
+        "start": "fabric-chaincode-node start"
+    },
+    "engines": {
+        "node": ">=12",
+        "npm": ">=5"
+    },
+    "dependencies": {
+        "fabric-contract-api": "^2.0.0",
+        "fabric-shim": "^2.0.0"
+    }
+}
